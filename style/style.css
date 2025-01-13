@@ -1,0 +1,54 @@
+.body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding: 5%;
+    box-shadow: 5px;
+}
+
+.img {
+    width: 40%;
+    height: 35%;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.detailed-description {
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.btn {
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 765px) {
+    .main {
+        flex-direction: column;
+        gap: 0px
+    }
+    .img{
+        height: 35%;
+        width: 100%;
+    }
+}
